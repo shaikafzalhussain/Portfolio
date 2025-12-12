@@ -44,17 +44,22 @@
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <!-- Theme toggle placed next to navigation for top-right alignment -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle light / dark mode">
+        <i id="theme-icon" class="ri-sun-line"></i>
+      </button>
     </nav>
   </header>
 
   <main id="home" class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">Shaik Afzal Hussain</h1>
+  <h1 class="hero-title"><span id="typed-name" aria-label="Shaik Afzal Hussain"></span><span class="typing-cursor" aria-hidden="true"></span></h1>
+      
       <p class="hero-subtitle">ML Data Associate — AWS Bedrock · Cloud & DevOps Engineer</p>
       <p class="hero-location"><i class="ri-map-pin-2-line"></i> Bengaluru, India</p>
       <div class="cta">
         <a class="btn primary" href="#projects"><i class="ri-rocket-2-line"></i> View Projects</a>
-        <a class="btn ghost" href="#contact"><i class="ri-send-plane-line"></i> Contact</a>
+  <a class="btn ghost" href="#contact"><i class="ri-send-plane-line"></i> Contact</a>
       </div>
       <div class="socials">
         <a href="mailto:safzalhussain3@gmail.com" aria-label="Email"><i class="ri-mail-line"></i></a>
@@ -78,14 +83,19 @@
     </div>
     <div class="about-content">
       <p>
-        I am an AWS-focused Cloud and ML Data professional, currently at <strong>Amazon Web Services (AWS)</strong> working with <strong>Bedrock</strong> on training Large Language Models and improving data quality across modalities. I enjoy turning ideas into production-grade systems with high availability, strong security, and measurable performance.
+        I am a Cloud &amp; AI Engineer and ML Data professional at Amazon Web Services (AWS), where I work on AWS Bedrock to train, evaluate, and improve Large Language Models (LLMs). I operate end-to-end on multi‑modal datasets  text, speech, audio, image, and video  focusing on data quality analysis, error‑pattern investigation, and stronger model evaluation workflows. I build and maintain technical pipelines and in‑house tooling that make model development reproducible and production‑ready.
+      </p>
+      <p>
+        Previously I worked as an AWS Cloud Application Developer designing and deploying secure, multi‑AZ, auto‑scaling architectures using EC2, ELB, IAM, EBS, S3 and Auto Scaling, and automating cloud operations with Bash and Python. I also design CI/CD and DevOps workflows (Docker, Kubernetes, Terraform, Jenkins, SonarQube, DockerHub) that deliver reliable releases for cloud and AI workloads.
+      </p>
+      <p>
+        Selected outcomes include delivering 99.99% uptime and a 45% reduction in latency across production services. I’ve built high‑availability AWS apps, scalable 3‑tier architectures, and end‑to‑end DevOps CI/CD pipelines, and contributed to projects such as CoCreate.AI, Study Buddy AI, and the ATS Resume Scanner.
       </p>
       <ul class="highlights">
-        <li><i class="ri-cpu-line"></i> Hands-on with <strong>Amazon Q</strong> and <strong>Amazon Nova Foundation Models</strong>.</li>
-        <li><i class="ri-shield-keyhole-line"></i> Built secure, multi-AZ, auto-scaling architectures on AWS.</li>
-        <li><i class="ri-line-chart-line"></i> Results-driven: improved uptime to 99.99% and cut latency by 45%.</li>
-        <li><i class="ri-trophy-line"></i> Part of <strong>Google Arcade Cohort 2</strong> — hands-on labs, quests, and cloud skill challenges on GCP.
-        </li>
+        <li><i class="ri-cpu-line"></i> <strong>Hands-on</strong> with <strong>Amazon Q</strong> and <strong>Amazon Nova</strong> foundation models.</li>
+        <li><i class="ri-shield-keyhole-line"></i> <strong>Built</strong> secure, multi‑AZ, auto‑scaling cloud architectures on AWS.</li>
+        <li><i class="ri-line-chart-line"></i> <strong>Results‑driven</strong>: improved uptime to <strong>99.99%</strong> and reduced latency by <strong>45%</strong>.</li>
+        <li><i class="ri-trophy-line"></i> <strong>Google Arcade Cohort 2</strong> — completed hands‑on labs, quests, and cloud skill challenges on GCP.</li>
       </ul>
     </div>
   </section>
@@ -135,11 +145,25 @@
       </div>
       <div class="group">
         <h4><i class="ri-tools-line"></i> DevOps</h4>
-        <p>Git, GitHub, Docker, Kubernetes, Terraform</p>
+        <p>Git, GitHub, Docker, Kubernetes, Jenkins , Terraform</p>
       </div>
       <div class="group">
         <h4><i class="ri-code-line"></i> Scripting</h4>
         <p>Bash, Python (basic)</p>
+      </div>
+      <!-- Artificial Intelligence (AI) group (clean, logo-free list to match Cloud/GCP style) -->
+      <div class="group ai-group">
+        <h4><i class="ri-brain-line"></i> Artificial Intelligence (AI)</h4>
+        <div class="ai-plain">
+          <p>Language Models (LLM) , Agents , Natural Language Processing (NLP) , Automation , AWS Bedrock
+            Azure AI, Google Vertex AI , Prompt Engineering, Retrieval-Augmented Generation (RAG), Model Evaluation, Fine-tuning, Vector Databases & Embeddings , LangChain
+          </p> 
+          
+          
+          
+          
+          
+        </div>
       </div>
     </div>
     <div class="badges" aria-label="Skill badges">
@@ -163,6 +187,34 @@
       </a>
       <a href="https://github.com/" target="_blank" rel="noreferrer" title="GitHub">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub logo" class="si">
+      </a>
+      <!-- AI / Model related badges - match existing rounded-square style -->
+      <a href="https://aws.amazon.com/bedrock/" target="_blank" rel="noreferrer" title="AWS Bedrock">
+        <img src="assets/bedrock-logo.svg" alt="AWS Bedrock" class="si">
+      </a>
+      <a href="https://azure.microsoft.com/en-us/products/ai/" target="_blank" rel="noreferrer" title="Azure AI">
+        <img src="assets/azure-ai-logo.svg" alt="Azure AI" class="si">
+      </a>
+      <a href="https://cloud.google.com/vertex-ai" target="_blank" rel="noreferrer" title="Google Vertex AI">
+        <img src="assets/vertex-ai-logo.svg" alt="Google Vertex AI" class="si">
+      </a>
+      <a href="#" title="LLM" aria-label="LLM icon">
+        <img src="assets/llm-icon.svg" alt="LLM icon" class="si">
+      </a>
+      <a href="#" title="NLP" aria-label="NLP icon">
+        <img src="assets/nlp-icon.svg" alt="NLP icon" class="si">
+      </a>
+      <a href="#" title="Agents" aria-label="Agents icon">
+        <img src="assets/agent-icon.svg" alt="Agent icon" class="si">
+      </a>
+      <a href="#" title="RAG" aria-label="Retrieval-Augmented Generation icon">
+        <img src="assets/rag-icon.svg" alt="RAG icon" class="si">
+      </a>
+      <a href="https://www.pinecone.io/" target="_blank" rel="noreferrer" title="Vector DB">
+        <img src="assets/vectordb-icon.svg" alt="Vector DB" class="si">
+      </a>
+      <a href="https://langchain.com/" target="_blank" rel="noreferrer" title="LangChain / LlamaIndex">
+        <img src="assets/langchain-icon.svg" alt="LangChain icon" class="si">
       </a>
     </div>
   </section>
@@ -206,16 +258,109 @@
           <a class="btn small" href="https://github.com/shaikafzalhussain/AWS-3-TIER-ARCHITECHURE" target="_blank" rel="noreferrer"><i class="ri-github-line"></i> Source</a>
         </div>
       </article>
+      <!-- New projects added per request -->
+      <article class="card">
+        <div class="card-icon"><i class="ri-server-line"></i></div>
+        <h3>End-to-End DevOps Project — Flask App CI/CD Pipeline</h3>
+        <p>A complete end-to-end DevOps lifecycle project demonstrating CI/CD for a Flask application using Terraform, Jenkins, SonarQube, Docker, DockerHub, and AWS EC2.</p>
+        <ul class="bullets">
+          <li>Automated build and test pipeline in Jenkins</li>
+          <li>Static analysis with SonarQube</li>
+          <li>Docker image build &amp; push to DockerHub</li>
+          <li>Automatic deployment to AWS EC2</li>
+          <li>Infrastructure provisioning using Terraform</li>
+        </ul>
+        <p class="muted">Architecture Flow: GitHub → Jenkins → SonarQube → DockerHub → AWS EC2</p>
+        <div class="actions">
+          <a class="btn small" href="https://github.com/shaikafzalhussain/Miniproject" target="_blank" rel="noreferrer"><i class="ri-github-line"></i> GitHub</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><i class="ri-brush-line"></i></div>
+        <h3>CoCreate.AI — Human + AI Co-Creation Platform</h3>
+        <p>An AI-powered web platform built for Vibeathon 2025 that improves human-AI collaboration using prompt refinement, story mode, idea mode, tutor mode, and more.</p>
+        <ul class="bullets">
+          <li>“Refine Prompt” engine to improve user prompts</li>
+          <li>Story, Idea, Tutor, and Conversation modes</li>
+          <li>File/image upload for contextual responses</li>
+          <li>Session history + 3D Three.js animated background</li>
+        </ul>
+        <p class="muted">Impact: 89% faster prompt-to-output workflow · 70% clarity improvement · 200+ users tested</p>
+        <div class="actions">
+          <a class="btn small" href="https://github.com/shaikafzalhussain/CoCreate.AI-V1" target="_blank" rel="noreferrer"><i class="ri-github-line"></i> GitHub</a>
+          <a class="btn small" href="https://co-create-ai-v1.vercel.app/" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i> Live</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon"><i class="ri-chat-3-line"></i></div>
+        <h3>Study Buddy AI — Student AI Assistant</h3>
+        <p>A personalized AI assistant for students using Lovable frontend, n8n automation backend, and AWS Bedrock (Amazon Nova Premier model).</p>
+        <ul class="bullets">
+          <li>Real-time chat using Lovable UI</li>
+          <li>n8n workflows for automation</li>
+          <li>AWS Bedrock model for intelligent responses</li>
+          <li>Memory-based conversations using Simple Memory Node</li>
+        </ul>
+        <p class="muted">Workflow: User → Lovable UI → n8n Webhook → AWS Bedrock Model → Memory Node → Response to UI</p>
+        <div class="actions">
+          <a class="btn small" href="https://github.com/shaikafzalhussain/study-buddy-ai-928" target="_blank" rel="noreferrer"><i class="ri-github-line"></i> GitHub</a>
+          <a class="btn small" href="https://study-buddy-ai-928.vercel.app/" target="_blank" rel="noreferrer"><i class="ri-external-link-line"></i> Live</a>
+        </div>
+      </article>
     </div>
   </section>
 
   <section id="certs" class="section certs">
     <div class="section-head"><h2><span>Certificates</span></h2></div>
-    <ul class="cert-list">
-      <li><i class="ri-award-line"></i> AWS Cloud Computing — Rooman Technologies Pvt Ltd</li>
-      <li><i class="ri-award-line"></i> AWS Cloud Practitioner Essentials — AWS</li>
-      <li><i class="ri-award-line"></i> Python — Great Learning</li>
-    </ul>
+    <div class="cert-grid">
+      <!-- Microsoft Azure AI Fundamentals (with verify) -->
+      <article class="cert-card">
+        <img class="cert-logo" src="assets/azure_ai.svg" alt="Azure AI Fundamentals badge">
+        <div class="cert-body">
+          <h4>Microsoft Certified: Azure AI Fundamentals</h4>
+          <p class="muted">Certificate ID: <strong>114FCBEDA8581957</strong></p>
+        </div>
+        <div class="cert-actions">
+          <a class="btn small" href="https://learn.microsoft.com/en-gb/users/afzalhussainshaik/credentials/114fcbeda8581957" target="_blank" rel="noreferrer"><i class="ri-check-line"></i> Verify</a>
+        </div>
+      </article>
+
+      <!-- AWS Cloud Computing — Rooman Technologies (no verify link provided) -->
+      <article class="cert-card">
+        <img class="cert-logo" src="assets/aws-essen.svg" alt="AWS Course badge">
+        <div class="cert-body">
+          <h4>AWS Cloud Computing — Rooman Technologies Pvt Ltd</h4>
+        </div>
+      </article>
+
+      <!-- AWS Cloud Practitioner Essentials (badge provided) -->
+      <article class="cert-card">
+        <img class="cert-logo" src="assets/aws-essen.svg" alt="AWS Practitioner badge">
+        <div class="cert-body">
+          <h4>AWS Cloud Practitioner Essentials — AWS</h4>
+        </div>
+      </article>
+
+      <!-- Python — Great Learning (with verify) -->
+      <article class="cert-card">
+        <img class="cert-logo" src="assets/python.svg" alt="Python certificate - Great Learning">
+        <div class="cert-body">
+          <h4>Python — Great Learning</h4>
+          <p class="muted"><a href="https://olympus.mygreatlearning.com/courses/12383/certificate" target="_blank" rel="noreferrer">Verify Certificate</a></p>
+        </div>
+      </article>
+
+      <!-- AWS Certified Solutions Architect – Associate (badge provided) -->
+      <article class="cert-card">
+        <img class="cert-logo" src="assets/aws.svg" alt="AWS Solutions Architect badge">
+        <div class="cert-body">
+          <h4>AWS Certified Solutions Architect – Associate</h4>
+          <p class="muted">Credly: <a href="https://www.credly.com/badges/a41e08a3-1601-48d0-bd7a-f083f7b4119f/linked_in_profile" target="_blank" rel="noreferrer">View Badge</a></p>
+        </div>
+      </article>
+    </div>
   </section>
 
   <section id="education" class="section education">
