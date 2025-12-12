@@ -1,106 +1,111 @@
-# Shaik Afzal Hussain — Portfolio (V2)
+# 👨‍💻 Shaik Afzal Hussain — Cloud & AI Engineer
 
-This repository contains the public portfolio website for Shaik Afzal Hussain (Cloud & AI Engineer). It showcases professional experience, technical skills, selected projects, and certifications. The site is a lightweight, responsive static website built with plain HTML, CSS and vanilla JavaScript.
+ML Data Associate at **Amazon Web Services (AWS) Bedrock** · Cloud & DevOps Engineer
 
----
 
-## Features (V2)
 
-- Clean, responsive single-page layout (Hero, About, Experience, Skills, Projects, Certificates, Education, Contact).
-- Light / Dark theme toggle (preference persisted to localStorage).
-- Updated Technical Skills with an expanded Artificial Intelligence (AI) section and matching skill badges.
-- Projects section updated with additional project entries and links to source/live demos.
-- Certificates section with verification links and badge images.
-- Typing animation for the hero name.
-- Mobile-first responsive design and subtle UI animations (hover, card shadows, transitions).
-- Accessibility-minded: semantic markup and focus outlines.
+[Image of a cloud computing icon]
 
----
 
-## Files of interest
+***
 
-- `index.html` — main HTML page.
-- `styles.css` — global stylesheet using CSS variables for theming.
-- `script.js` — UI interactions (theme toggle, smooth scroll, active section highlighting, duration rendering, typing animation, small helpers).
-- `assets/` — images, icons, and placeholder SVGs used throughout the site.
+## 📍 Contact & Socials
 
----
+| Icon | Details |
+| :--- | :--- |
+| 📧 | **Email:** [safzalhussain3@gmail.com](mailto:safzalhussain3@gmail.com) |
+| 🔗 | **LinkedIn:** [afzal-hussain1](https://www.linkedin.com/in/afzal-hussain1/) |
+| 🐙 | **GitHub:** [shaikafzalhussain](https://github.com/shaikafzalhussain) |
+| 📞 | **Phone:** +91 7702994407 |
+| ⬇️ | **Resume:** [Download Resume](/Afzal-Resume.pdf) |
 
-## Quick local preview
+***
 
-You can preview this static site locally with a simple HTTP server. From the repository root run:
+## ☁️ About Me
 
-```bash
-# macOS / Linux (python built-in server)
-python3 -m http.server 8000
+I am an **AWS-focused Cloud and ML Data professional**, currently at **Amazon Web Services (AWS)** working with **Bedrock** on training Large Language Models and improving data quality across modalities. I enjoy turning ideas into production-grade systems with high availability, strong security, and measurable performance.
 
-# then open in your browser
-http://localhost:8000
-```
+### Key Highlights
+* **🤖 Amazon AI:** Hands-on with **Amazon Q** and **Amazon Nova Foundation Models**.
+* **🔒 Security & Scalability:** Built secure, multi-AZ, auto-scaling architectures on AWS.
+* **📈 Results-driven:** Improved uptime to 99.99% and cut latency by 45%.
+* **🏅 Cloud Challenges:** Part of **Google Arcade Cohort 2** (hands-on labs, quests, and cloud skill challenges on GCP).
 
-This avoids issues with loading certain assets and ensures the site behaves like it would when hosted.
+***
 
----
+## 💼 Professional Experience
 
-## Deploy to GitHub Pages
+### 1. ML Data Associate, AWS Bedrock
+* **Company:** Amazon Web Services (AWS)
+* **Duration:** 11/2024 – Present | Bengaluru, India
 
-This site is a static site and can be deployed to GitHub Pages from the `main` branch (or a dedicated `gh-pages` branch). Example steps:
+* Train and evaluate LLMs via **AWS Bedrock**; exposure to **Amazon Q** and **Amazon Nova**.
+* Deliver high-quality labeled datasets across text, speech, audio, image, and video.
+* Analyze error patterns, propose fixes, and improve data quality and processes.
 
-```bash
-# ensure committed changes
-git add -A
-git commit -m "chore: release v2"
-# push to GitHub
-git push origin main
-```
+### 2. AWS Cloud Application Developer
+* **Company:** Rooman Technologies Pvt Ltd
+* **Duration:** 02/2024 – 10/2024 | Kurnool, India
 
-Then in your repository settings on GitHub enable GitHub Pages and choose the `main` branch (root) as the publishing source.
+* Designed and deployed infrastructure with **EC2**, **Auto Scaling**, **ELB**, **IAM**, and **EBS**.
+* Automated ops and admin tasks using scripts, improving efficiency.
 
----
+***
 
-## Development notes & customization
+## 🛠️ Technical Skills
 
-- Theme: `styles.css` defines CSS variables in the `:root` and `.dark-theme`. Tweak colors by editing those variables.
-- AI / skills badges: placeholder SVGs live in `assets/`. Replace them with official logos (preserve file names or update `index.html` references).
-- Typing animation: controlled in `script.js` (search for `typed-name` and the small typing routine). Adjust speed or disable if needed.
-- Removed experimental 3D character: older V1 code included a Three.js animated character. That feature has been removed in V2 to simplify performance and maintenance.
+| Category | Skills |
+| :--- | :--- |
+| **Cloud** | **AWS:** EC2, ELB, EBS, S3, IAM, Auto Scaling, CloudWatch, SNS, SQS, RDS<br>**GCP:** Compute Engine, Cloud Storage, Cloud SQL, Pub/Sub, IAM, Cloud Functions, GKE |
+| **DevOps** | Git, GitHub, Docker, Kubernetes, Terraform |
+| **Scripting** | Bash, Python (basic) |
 
----
+<br>
 
-## Changelog (V2)
+### Skill Badges
+<p align="left">
+  <img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt="AWS logo" height="30" title="Amazon Web Services">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="GCP logo" height="30" title="Google Cloud">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker logo" height="30" title="Docker">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes logo" height="30" title="Kubernetes">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" alt="Terraform logo" height="30" title="Terraform">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git logo" height="30" title="Git">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub logo" height="30" title="GitHub">
+</p>
 
-- v2.0.0 — Major content and UI refresh:
-  - Theme toggle with persistence.
-  - Reworked AI skills block (clean, multiline list) and extended skill badges row.
-  - Added 3 new projects and updated project descriptions + links.
-  - Restored and expanded Certificates section with verify links.
-  - Rewrote About section and highlights.
-  - Removed 3D animated character and related assets for lighter performance.
+***
 
----
+## 🚀 Selected Projects
 
-## Troubleshooting
+### 1. ATS Resume Scanner (GCP Hosted)
+* **Description:** Free GCP-hosted tool to analyze resume ATS-fit, keyword gaps, and feedback.
+* **Tech Stack:** Docker, Artifact Registry, Cloud Run.
+* **Metrics:** ~30s analysis, minimal cost via free tiers.
+* **🌐 Live App:** [https://ats-resume-project-with-gcp-cloud.streamlit.app/](https://ats-resume-project-with-gcp-cloud.streamlit.app/)
 
-- 404 on assets: make sure `assets/` files exist and you’re serving from the project root.
-- Git push rejected: this repo may have upstream commits. Use `git fetch` then `git.pull --rebase origin main` (or create a feature branch and open a PR).
-- Large file errors: avoid checking in files larger than 100MB. Use Git LFS if you must store large binaries.
+### 2. High Availability Web App on AWS
+* **Description:** Highly available deployment leveraging Auto Scaling, ELB, and Multi-AZ.
+* **Metrics:** 99.99% uptime, 45% faster loads, +50% concurrent user capacity.
+* **🔗 Source:** [GitHub Repository](https://github.com/shaikafzalhussain/DEPLOYING-THE-HIGH-AVAILABILITY-WEB-APPLICATION)
 
----
+### 3. 3‑Tier Cloud App on AWS
+* **Description:** Scalable 3‑tier architecture in AWS with Auto Scaling and secure IAM.
+* **Metrics:** +40% capacity scaling without manual intervention, 99.9% uptime.
+* **🔗 Source:** [GitHub Repository](https://github.com/shaikafzalhussain/AWS-3-TIER-ARCHITECHURE)
 
-## License
+***
 
-This repository is released under the MIT License. See `LICENSE` if present.
+## 🎓 Education & Certificates
 
----
+### Education
+* **B.Sc (Computer Science)** — Sri Sai Krishna Degree College, Kurnool (11/2021 – 04/2024)
 
-## Contact
+### Certificates
+* **AWS Cloud Computing** — Rooman Technologies Pvt Ltd
+* **AWS Cloud Practitioner Essentials** — AWS
+* **Python** — Great Learning
 
-Shaik Afzal Hussain — safzalhussain3@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/afzal-hussain1/
-
-GitHub: https://github.com/shaikafzalhussain
-
----
-
-If you'd like me to add more details (automated build steps, a small CI workflow for deploying to Pages, or a screenshots/preview section), tell me which format you prefer and I’ll add it.
+***
+<p align="center">
+  © 2024 Shaik Afzal Hussain. Built with AWS & GCP inspiration.
+</p>
